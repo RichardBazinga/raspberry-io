@@ -3,4 +3,6 @@
 from gpiozero import LED
 
 led = LED(17)
-led.on()
+
+while True:
+    led.on()
