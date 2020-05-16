@@ -9,8 +9,8 @@ os.system("echo '...Running pin17bkink.py'")
 
 while True:
     led.on()
-    sleep(sys.argv[1])
+    sleep(float(sys.argv[1]))
     led.off()
-    sleep(sys.argv[2])
+    sleep(float(sys.argv[2]))
 
 
